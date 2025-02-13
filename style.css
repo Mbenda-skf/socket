@@ -1,42 +1,47 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: linear-gradient(135deg, #ffA500, #ff4500, #800080);
+    background: linear-gradient(135deg, #000000, #8B0000); /* Noir mélangé à du rouge */
     padding: 20px;
+    color: white;
 }
 
 h1 {
-    color: #333;
+    color: #ffffff;
 }
 
 form {
     margin: 20px auto;
-    padding: 20px;
-    background: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1); /* Légèrement transparent */
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.3); /* Ombre rouge subtile */
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 12px;
+    width: 320px; /* Élargissement */
 }
 
 input[type="text"] {
-    padding: 10px;
-    width: 200px;
+    padding: 12px;
+    width: 250px; /* Plus large */
     border: 1px solid #ccc;
     border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
 }
 
 input[type="submit"] {
-    padding: 10px 15px;
+    padding: 12px 18px;
     border: none;
-    background: #28a745;
+    background: #d32f2f; /* Rouge intense */
     color: white;
     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 input[type="submit"]:hover {
-    background: #218838;
+    background: #b71c1c; /* Rouge plus foncé */
 }
 
 #participants {
@@ -47,9 +52,9 @@ input[type="submit"]:hover {
 }
 
 video {
-    width: 300px;
+    width: 350px; /* Plus grand */
     height: auto;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.4); /* Ombre rouge */
 }
